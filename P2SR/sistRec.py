@@ -11,7 +11,7 @@ with open(sys.argv[1], 'r') as f:
 
 #Extraemos documentos que sabemos que le han gustado al usuario
 documents = list(map(lambda x: re.split(r".\s", x, 1), liked))
-dfdocs = pd.dfFrame(documents, columns=['DocNumb', 'Document'])
+dfdocs = pd.DataFrame(documents, columns=['DocNumb', 'Document'])
 
 #Se añade columna al df para saber qué textos le han gustado y que textos aún no se sabe si le ahn gustado o no"
 dfdocs['Like'] = [1, 1, 1, 1, 0, 0, 0, 0, 0]
@@ -61,7 +61,7 @@ cosine_similarities = cosine_similarity(tfidfmatrix, tfidfmatrix)
 lowerTriangleMatrix = np.tril(cosine_similarities)
 
 #Se ordenan los documentos de mayor a menor similitud y se le muestran al usuario según los docs que le han gustado previamente
-dfmatrix = pd.dfFrame(lowerTriangleMatrix)
+dfmatrix = pd.DataFrame(lowerTriangleMatrix)
 sorted_values = pd.Series
 
 for i in range(0, len(dfmatrix.columns)):
