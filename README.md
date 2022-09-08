@@ -2,6 +2,10 @@
 # TAAD
 Prácticas de la asignatura *Técnicas Avanzadas de Análisis de Datos* del Máster Universitario en Ciberseguridad e Inteligencia de Datos.
 
+## Práctica 1: Máquinas de Vector de Soporte (SVM)
+
+Proyecto de SVM de la asignatura *Técnicas Avanzadas de Análisis de Datos*.
+
 ## Práctica 2: Sistemas Recomendadores
 
 Proyecto de Sistemas Recomendadores de la asignatura *Técnicas Avanzadas de Análisis de Datos*.
