@@ -66,7 +66,7 @@ sorted_values = pd.Series
 
 for i in range(0, len(dfmatrix.columns)):
     if dfdocs.iloc[i]['Like'] == 1:
-        print("\nPorque te ha gustado el documento ", dfdocs.iloc[i]['DocNumb'] ,", te recomendamos: ")
+        print("\nLe ha gustado el documento ", dfdocs.iloc[i]['DocNumb'],": ")
         sorted_values = dfmatrix[i].sort_values(ascending = False)
         for index, value in sorted_values.items():
             if(round(value, 6) != 1.0): #Se cogen los valores distintos de uno que hay en la matriz triangular
