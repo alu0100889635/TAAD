@@ -15,7 +15,7 @@ Implementación de un sistema de recomendación basado en contenido.
 Instalación de los paquetes con Python v3.8.10:
 
 ```bash
-  python3 instalacion.py
+  python3 instalation.py
 ```
     
 ### Ejecutar programa
@@ -23,7 +23,7 @@ Instalación de los paquetes con Python v3.8.10:
 Para poner en marcha el proyecto, ejecute este comando: 
 
 ```bash
-  python3 sistRec.py textos.txt
+  python3 recommenderSyst.py texts.txt
 ```
 
 ## Práctica 3: Análisis de Series Temporales
