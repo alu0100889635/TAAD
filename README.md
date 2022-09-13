@@ -12,7 +12,7 @@ Implementación de un sistema de recomendación basado en contenido.
 
 ### Instalación
 
-Instalación de los paquetes con Python v3 o superior:
+Instalación de los paquetes con Python v3.10 o superior:
 
 ```bash
   pip3 install -r requirements.txt
